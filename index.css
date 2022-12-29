@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'cursed_timer_ulilregular';
+    src: url('cursedtimerulil-aznm-webfont.woff2') format('woff2'),
+         url('cursedtimerulil-aznm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+h3{
+    font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+margin: 68 0 21 0;
+/* identical to box height, or 90% */
+color: #EEEEEE;
+text-align: center;
+}
+
+p {
+    font-family: 'cursed_timer_ulilregular';
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;   
+}
+
+.extra-btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+#scoreBox{
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    
+}
+
+.score{
+    color:#F94F6D;
+    font-size: 90px;
+    padding: 18px;
+    text-align: center;
+    
+}
+
+.addScores{
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-left: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #9AABD8;
+    background-color: #1B244A;
+}
+
+#home-score{
+    margin-top: 0;
+}
+
+#away-score{
+    margin-top: 0;
+}
